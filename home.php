@@ -36,7 +36,6 @@
         <hr width="90%" color="#DDC3A5"/>
         <div class="second-stage">
             <h1 id="one">Connect With Someone Who Special for you <br> & Build your thoughts & share with them.</h1>
-            <h2></h2>
         </div>
         <div class="footer">
             <h5>© 2022 SOUL MEDIA</h5>
