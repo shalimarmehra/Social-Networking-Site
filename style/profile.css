@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Gudea:wght@700&display=swap');
+*{
+    background-color: #201E20;
+}
+
+/* Body Part CSS */
+
+.body-part{
+    margin: 0px 50px 0px 50px;
+    padding: 20px 350px 0px 350px;
+    /* width: 100%; */
+    /* height: 100%; */
+    text-align: center;
+}
+
+#cover-image{
+    width: 100%;
+    height: 20%;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 30px 30px;
+    box-shadow: 0px 0px 10px #E0A96D;
+}
+
+#profile-image{
+    margin: -500px 0px 0px 0px;
+    border: #DDC3A5 3px solid;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    /* align-content: center; */
+    border-radius: 50%;
+}
+
+#change-profile-cover-image{
+    text-decoration: none;
+    color: #DDC3A5;
+}
+
+#change-profile-cover-image:hover{
+    text-decoration: none;
+    color: #E0A96D;
+}
+
+#profile-name{
+    color: #DDC3A5;
+    text-align: center;
+    margin: 0px 0px 25px 0px;
+    font-family: 'Gudea', sans-serif;
+    font-size: 50px;
+}
+
+/* Profile Options */
+.profile-option{
+    text-decoration: none;
+}
+
+#menu-button{
+    color: #DDC3A5;
+    font-family: 'Gudea', sans-serif;
+    font-size: xx-large;
+    padding: 0px 30px;
+    display: inline;
+    text-decoration: none;
+}
+#menu-button:hover{
+    color: #E0A96D;
+    cursor: pointer;
+}
+
+#logout-menu-button{
+    background-color: red;
+    border-radius: 40px;
+    color: #DDC3A5;
+    font-family: 'Gudea', sans-serif;
+    font-size: xx-large;
+    padding: 1px 45px;
+    display: inline;
+    border: #201E20 1px solid;
+    text-decoration: none;
+    transition: transform .5s;
+}
+
+#logout-menu-button:hover{
+    background-color: #DDC3A5;
+    color: #201E20;
+    cursor: pointer;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.profile-option{
+    box-shadow: 0px 0px 10px #E0A96D;
+    margin: 0px 180px 0px 180px;
+    text-align: center;
+    padding: 20px;
+    border: #E0A96D 2px solid;
+    border-radius: 20px;
+}
+
+.after-menus{
+    margin: 30px 200px 0px 200px;
+    display: flex;
+}
+
+#friends-section{
+    box-shadow: 0px 0px 10px #E0A96D;
+    border: #E0A96D 2px solid;
+    flex: 1;
+    margin: 10px 10px 10px 0px;
+    border-radius: 10px;
+}
+
+#friend-header{
+    margin: 15px;
+    padding: 5px 0px 5px 00px;
+    color: #DDC3A5;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Gudea', sans-serif;
+}
+
+#friends-info{
+    /* margin: 15px; */
+    clear: both;
+    padding: 10px 10px 10px 10px;
+    /* box-shadow: 0px 0px 10px #E0A96D;
+    border: #E0A96D 2px solid; */
+    color: #DDC3A5;
+}
+
+#friends-name{
+    color: #DDC3A5;
+    text-align: center;
+    margin: 0px 0px 25px 0px;
+    font-family: 'Gudea', sans-serif;
+    /* font-size: 50px; */
+    text-decoration: none;
+}
+
+#friends-name:hover{
+    color: #E0A96D;
+}
+
+#friends-img{
+    width: 100px;
+    border-radius: 15px;
+    margin: 5px;
+    margin-top: 50px;
+}
+
+#timeline-section{
+    /* box-shadow: 0px 0px 10px #E0A96D;
+    border: #E0A96D 2px solid; */
+    flex: 2.5;
+    margin: 10px 0px 10px 10px;
+    border-radius: 10px;
+    padding: 2px;
+    /* border-radius: 20px; */
+}
+
+#timeline-post{
+    box-shadow: 0px 0px 10px #E0A96D;
+    border: #E0A96D 2px solid;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+#post-input{
+    border: #201E20 3px solid;
+    border-radius: 10px;
+    color: #DDC3A5;
+    font-size: x-large;
+    margin-left: 50px;
+    padding: 25px;
+    font-family: 'Gudea', sans-serif;
+}
+
+#post-input-placeholder{
+    font-size: x-large;
+    font-family: 'Gudea', sans-serif;
+    padding: 25px;
+    border: #201E20 3px solid;
+}
+
+#post-file{
+    color: #DDC3A5;
+    font-size: x-large;
+    padding-left: 50px;
+    margin-bottom: 25px;
+}
+
+#post_button{
+    color: #DDC3A5;
+    border: #E0A96D 3px solid;
+    margin-left: 300px;
+    margin-bottom: 25px;
+    /* margin: 0px 0px 20px 870px; */
+    padding: 10px 30px;
+    font-size: larger;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #E0A96D;
+    font-family: 'Gudea', sans-serif;
+    transition: transform .5s;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#post_button:hover{
+    background-color: #E0A96D;
+    color: #201E20;
+    transform: scale(1.1);
+}
+
+#switch-posts{
+    color: #DDC3A5;
+    border: #E0A96D 3px solid;
+    padding: 10px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: larger;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #E0A96D;
+    font-family: 'Gudea', sans-serif;
+    transition: transform .5s;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+#switch-posts:hover{
+    background-color: #E0A96D;
+    color: #201E20;
+    transform: scale(1.1);
+}
+
+#uploaded-posts{
+    box-shadow: 0px 0px 10px #E0A96D;
+    border: #E0A96D 2px solid;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+}
+
+#post-user-name{
+    color: #DDC3A5;
+}
+
+#post-user-image{
+    width: 120px;
+    border-radius: 100px;
+    border: #DDC3A5 1px solid;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px #E0A96D;
+}
+
+#user-name{
+    color: #DDC3A5;
+    text-align: center;
+    margin: 0px 0px 25px 0px;
+    font-family: 'Gudea', sans-serif;
+    /* font-size: 50px; */
+    text-decoration: none;
+}
+
+#user-name:hover{
+    color: #E0A96D;
+}
+
+#user-name-who-post{
+    color: #DDC3A5;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+#what-post{
+    color: #E0A96D;
+    padding-left: 30px;
+}
+
+#post-bottom{
+    padding-left: 30px;
+}
+
+#like-comment{
+    padding: 20px 0px 20px;
+    font-size: larger;
+    text-decoration: none;
+    width: 100%;
+}
+
+#like-button{
+    color: #DDC3A5;
+    border: #DDC3A5 2px solid;
+    margin-top: 10px;
+    padding: 5px 10px;
+    box-shadow: 0px 0px 5px #E0A96D;
+    border-radius: 10px;
+    transition: transform .5s;
+    font-weight: bolder;
+    float: right;
+    margin-right: 400px;
+    margin-top: -70px;
+}
+
+#like-button:hover{
+    background-color: #E0A96D;
+    color: #201E20;
+    transform: scale(1.1);
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.login-sign-up{
+    text-decoration: none;
+    height: 20%;
+    margin: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 170%;
+    padding: 10px 0px 0px 20px;
+    color: #DDC3A5;
+    text-shadow: 2px 2px 8px #E0A96D;
+    font-family: 'Gudea', sans-serif;
+}
+
+.login-sign-up:hover{
+    color: #E0A96D;
+    cursor: pointer;
+}
+
+.login-sign-up:active{
+    color: #E0A96D;
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Gudea:wght@700&display=swap');
+*{
+    background-color: #201E20;
+}
+
+/* Profile Options */
+
+
+#timeline-section{
+    box-shadow: 0px 0px 10px #E0A96D;
+    border: #DDC3A5 2px solid;
+    padding: 20px;
+    flex: 2.5;
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 100px;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #DDC3A5;
+}
+
+#timeline-post{
+    box-shadow: 0px 0px 10px #E0A96D;
+    border: #DDC3A5 2px solid;
+    border-radius: 10px;
+    padding: 100px;
+    padding-left: 580px;
+}
+
+#file_upload{
+    color: #DDC3A5;
+    font-size: x-large;
+}
+
+#post_button{
+    color: #DDC3A5;
+    border: #E0A96D 3px solid;
+    /* margin: 0px 0px 20px 870px; */
+    padding: 10px 30px;
+    font-size: larger;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #E0A96D;
+    font-family: 'Gudea', sans-serif;
+    transition: transform .5s;
+    margin-top: 15px;
+}
+
+#post_button:hover{
+    background-color: #E0A96D;
+    color: #201E20;
+    transform: scale(1.1);
+}

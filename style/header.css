@@ -1,0 +1,80 @@
+.main{
+    display: flex;
+    padding: 0px 20px 0px 20px;
+}
+
+/* Header Designing  */
+
+.header-one{
+    width: 50%;
+    padding: 10px 20px;
+}
+
+#main-logo{
+    padding: 0px 0px 0px 25px;
+    width: 50%;
+    height: 20%;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 350%;
+    /* padding: 30px 50px 50px 100px; */
+    color: #DDC3A5;
+    text-shadow: 2px 2px 8px #E0A96D;
+    font-family: 'Cinzel Decorative', cursive;
+    letter-spacing: 5px;
+}
+#main-logo:link{
+    color: #DDC3A5;
+    text-decoration: none;
+}
+#main-logo:visited{
+    color: #DDC3A5;
+    text-decoration: none;
+}
+#main-logo:hover{
+    color: #E0A96D;
+}
+
+.header-two{
+    width: 20%;
+    padding: 10px 10px;
+    display: flex;
+    margin-right: -10px;
+}
+
+#search{
+    border: #DDC3A5 2px solid;
+    color: #E0A96D;
+    border-radius: 10px;
+    padding: 10px;
+    width: 85%;
+    margin: 15px 0px 15px 15px;
+    background-image: url(images/search.png);
+    transition: transform .5s;
+}
+#search:hover{
+    transform: scale(1.1);
+}
+
+.header-three{
+    width: 6%;
+    padding-top: 10px;
+}
+
+#notification-btn{
+    width: 37%;
+    height: 100%;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+#user_image{
+    height: 70%;
+    width: 70%;
+    border-radius: 15px;
+    margin-top: 8px;
+}
+
+#search-users{
+    text-decoration: none;
+}

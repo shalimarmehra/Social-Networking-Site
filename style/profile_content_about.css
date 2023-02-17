@@ -1,0 +1,24 @@
+#timeline-section-for-settings{
+    box-shadow: 0px 0px 10px #E0A96D;
+    border: #E0A96D 2px solid;
+    flex: 2.5;
+    margin: 10px 225px;
+    border-radius: 20px;
+    padding: 0px 160px;
+}
+
+
+h3{
+    color: #DDC3A5;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#text_box{
+    /* text-shadow: 2px 2px 8px #E0A96D; */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color:#DDC3A5;
+    font-size: x-large;
+}

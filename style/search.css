@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Gudea:wght@700&display=swap');
+*{
+    background-color: #201E20;
+}
+
+/* People Who Likes */
+
+#timeline-section{
+    box-shadow: 0px 0px 10px #E0A96D;
+    border: #E0A96D 2px solid;
+    flex: 2.5;
+    margin: 10px 0px 10px 10px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+#timeline-post{
+    box-shadow: 0px 0px 10px #E0A96D;
+    border: #E0A96D 2px solid;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+#friends-info{
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+}
+
+#search-image{
+    text-decoration: none;
+    padding-left: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#friends-img{
+    text-align: center;
+    width: 50%;
+}
+
+#search-users{
+    color: #DDC3A5;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+#search-users:hover{
+    color: #E0A96D;
+}
